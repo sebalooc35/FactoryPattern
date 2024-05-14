@@ -1,0 +1,16 @@
+La creación directa de objetos mediante el uso de new
+es simple y directa, pero resulta menos flexible y mantenible
+ comparada con los patrones Factory Method y Abstract Factory.
+
+ Estos últimos fomentan una mayor flexibilidad al centralizar
+ la creación de objetos, permitiendo cambios y extensiones
+ sin alterar el código existente, lo cual mejora la
+ mantenibilidad. Además, al desacoplar el código de las
+ clases concretas de objetos, estos patrones facilitan
+ la adaptación y la escalabilidad en aplicaciones complejas.
+
+ Por tanto, aunque la creación directa puede ser suficiente
+ para aplicaciones pequeñas, los patrones Factory son
+ preferibles en sistemas más grandes donde el
+ desacoplamiento, la flexibilidad y la facilidad de
+ mantenimiento son críticos.
